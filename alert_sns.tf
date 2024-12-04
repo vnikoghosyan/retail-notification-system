@@ -7,7 +7,3 @@ resource "aws_sns_topic_subscription" "email_subscription" {
   protocol  = "email"
   endpoint  = "vnikoghosyan@gmail.com" # Replace with your email address
 }
-
-output "alerts_topic_arn" {
-  value = aws_sns_topic.alerts_topic.arn
-}
