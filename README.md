@@ -1,3 +1,7 @@
+## Requirements
+Create an S3 bucket in AWS manually to store terraform backend.
+
+
 ## Task Scenario
 Imagine the same retail notification system:
 1. When a new product is added, the system:
